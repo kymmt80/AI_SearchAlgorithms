@@ -14767,7 +14767,7 @@ if we show a location as (x,y), we define the following symbols:</p>
 $$h_{potion}(n)=Positive(player_{min x}-potion_{min x})+Positive(player_{min y}-potion_{min y}) $$<p>our final heuristic is:</p>
 $$h(n)=h_{potion}(n)+h_{distance}(n) $$<p>Now we prove that this heuristic is consistent:
 take A=current state and C=future state, we know that cost(A to C) is 1.
-we prove consistency for action sets {Down,Left} and {Up,Right} seprately. notice that since both $h_{distance}(n)$ is distance based and $h_{potion}(n) $ is the sum of one horizontal and one vertical distance and they cannot change simultaneously after one step, if no pill is taken, they increase or decrase by 1 after each action.</p>
+we prove consistency for action sets {Down,Left} and {Up,Right} seprately. notice that since both $h_{distance}(n)$ is distance based and $h_{potion}(n) $ is the sum of one horizontal and one vertical distance and they cannot change simultaneously after one step, if no pill is taken, they increase or decrase by at most 1 after each action.</p>
 <ul>
 <li><strong>UP or Right:</strong><ul>
 <li><strong>Pill is taken:</strong>
