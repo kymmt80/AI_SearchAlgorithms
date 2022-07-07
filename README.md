@@ -1,6 +1,6 @@
 # Search Algorithms
 
-In this project, the aim is to solve a problem using various search algorithms and compare their qualities. BFS, IDS and A* are the algorithms used for this problem. The report can be found in ```AI_CA1.ipynb```
+In this project, the aim is to solve a problem using various search algorithms and compare their qualities. BFS, IDS and A* are the algorithms used for this problem. The report can be found in ```report.ipynb```
 
 ## Problem Description
 
